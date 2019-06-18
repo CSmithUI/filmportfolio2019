@@ -1,0 +1,5 @@
+.videoFrame {
+    display: flex;
+    flex: 3;
+    flex-flow: row;
+}

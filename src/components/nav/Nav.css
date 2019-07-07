@@ -21,3 +21,16 @@
     text-decoration: none;
     color: red;
 }
+
+.navLinkCurrent {
+    text-decoration-line: overline;
+    text-decoration-color: red;
+    cursor: default;
+}
+
+.navLinkCurrent:hover {
+    text-decoration-line: overline;
+    text-decoration-color: red;
+    cursor: default;
+    color: white;
+}

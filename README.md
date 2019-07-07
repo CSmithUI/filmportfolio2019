@@ -1,1 +1,2 @@
-# filmportfolio2019
+# Personal portfolio site for my film work
+# Written in React

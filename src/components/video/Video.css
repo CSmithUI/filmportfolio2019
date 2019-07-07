@@ -1,5 +1,51 @@
-.videoFrame {
-    display: flex;
-    flex: 3;
-    flex-flow: row;
+.videoPageWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.backArrowWrapper {
+    grid-column: 1 / 2;
+    position: relative;
+    text-align: center;
+}
+
+.backArrow {
+    position: relative;
+    font-size: 3em;
+    cursor: pointer;   
+}
+
+.videoPlayerFadeIn {
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 2s;
+}
+
+.videoPlayerWrapper {
+    grid-column: 2 / 12;
+    position: relative;
+    min-width: 100%;
+    overflow: hidden;
+    height: 0;
+    background-color: black;
+    padding-top: 56.25%;
+}
+
+.videoPlayer {
+    opacity: 0;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+
+.wrapperFade {
+    opacity: 1;
 }

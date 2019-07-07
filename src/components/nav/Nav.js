@@ -3,15 +3,11 @@ import { Link } from 'react-router-dom';
 import './Nav.css'
 
 class Nav extends React.Component {
-  constructor() {
-    super();
-    this.state = { someKey: 'someValue' };
-  }
 
   render() {
     return <div className="navBox">
-          <Link to="/film" className="navLinks">DOCUMENTARY FILM</Link>
-          <Link to="/commercial" className="navLinks">COMMERCIAL & BRANDED</Link>
+      <Link to="/film" className="navLinks">DOCUMENTARY FILM</Link>
+      <Link to="/commercial" className="navLinks">COMMERCIAL & BRANDED</Link>
     </div>;
   }
 

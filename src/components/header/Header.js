@@ -4,16 +4,13 @@ import './Header.css'
 import Nav from '../nav/Nav'
 
 class Header extends React.Component {
-  constructor() {
-    super();
-    this.state = { someKey: 'someValue' };
-  }
+
 
   render() {
     return <div className="header">
-        <Link to="/" className="logo"><div className="logoName">Christopher Smith : editor</div></Link>
-        <div className="navContainer"><Nav /></div>
-        
+      <Link to="/" className="logo"><div className="logoName">CHRISTOPHER SMITH : editor</div></Link>
+      <div className="navContainer"><Nav /></div>
+
     </div>;
   }
 

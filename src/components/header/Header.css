@@ -16,9 +16,9 @@
 .logo, .logo:hover, .logo:active, .logo:visited {
     padding-left: 4em;
     padding-right: 3em;
-    line-height: 5em;
+    line-height: 4.2em;
     color: red;
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
 }

@@ -1,0 +1,42 @@
+.commercialPageWrapper {
+    position: relative;
+    display: grid;
+    grid-template-rows: repeat(3);
+}
+
+.fashionFilmWrapper, .videoListWrapper, .sizzleReelsWrapper, .musicVideosWrapper {
+    position: relative;
+    margin-bottom: 2em;
+    min-height: 250px;
+}
+
+.fashionFilmWrapper {
+    grid-row: 2;
+    margin-top: 2em;
+}
+
+.brandedContentWrapper {
+    grid-row: 3;
+}
+
+.brandedContent {
+    position: absolute;
+}
+
+.sizzleReelsWrapper {
+    grid-row: 4;
+}
+
+.sizzleReels {
+    position: absolute;
+} 
+
+.musicVideosWrapper {
+    grid-row: 5;
+}
+
+.musicVideos {
+    position: absolute;
+}
+
+

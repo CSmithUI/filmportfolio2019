@@ -6,9 +6,6 @@ import VideoElement from '../components/videoElement/VideoElement';
 
 
 class Landing extends React.Component {
-  constructor(props) {
-    super();
-  }
 
   render() {
 

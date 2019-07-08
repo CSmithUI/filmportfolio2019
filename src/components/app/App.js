@@ -13,8 +13,6 @@ class App extends React.Component {
     this.state = {
       videos: [...VideoData]
     };
-    this.currentVideo = this.currentVideo.bind(this);
-    this.displayCurrentVideo = this.displayCurrentVideo.bind(this);
   }
 
   currentVideo(id) {
@@ -24,13 +22,9 @@ class App extends React.Component {
     this.displayCurrentVideo();
   }
 
-  displayCurrentVideo() {
-    console.log(this.state.currentVideo);
-  }
-
   render() {
     return (
-      <Router>
+      <Router >
         <div className="App">
           <Header />
           <Route exact path="/" render={props => (
@@ -40,7 +34,7 @@ class App extends React.Component {
           )} />
           <Route exact path="/film" render={props => (
             <React.Fragment>
-              <Film videos={this.state.videos} currentVideo={this.currentVideo} />
+              <Film videos={this.state.videos} />
             </React.Fragment>
           )} />
           <Route exact path="/commercial" render={props => (

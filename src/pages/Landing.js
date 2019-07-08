@@ -16,7 +16,7 @@ class Landing extends React.Component {
         <span className="name">CHRISTOPHER</span><br />
         <span className="name">CARSON</span><br />
         <span className="name">SMITH</span><br />
-        <span className="subTitle">Film and Video Editor</span><br />
+        <span className="subTitle">producer / director / editor</span><br />
       </div>
       <div className="heroElement">
         <VideoElement video={hero} />

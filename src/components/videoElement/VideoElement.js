@@ -12,7 +12,7 @@ class VideoElement extends React.Component {
             roles.push(' Produced');
         }
         if (this.props.video.directedBy) {
-            roles.push(' Directed ');
+            roles.push(' Directed');
         }
         if (this.props.video.editedBy) {
             roles.push(' Edited ');

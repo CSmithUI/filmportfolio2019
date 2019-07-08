@@ -13,6 +13,11 @@
     flex-basis: content;
 }
 
+.logoTagline {
+    font-size: 0.8em;
+    color: silver;
+}
+
 .logo, .logo:hover, .logo:active, .logo:visited {
     padding-left: 4em;
     padding-right: 3em;

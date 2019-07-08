@@ -8,7 +8,7 @@ class Header extends React.Component {
 
   render() {
     return <div className="header">
-      <Link to="/" className="logo"><div className="logoName">CHRISTOPHER SMITH : editor</div></Link>
+      <Link to="/" className="logo"><div className="logoName">CHRISTOPHER SMITH <span className="logoTagline">producer / director / editor</span></div></Link>
       <div className="navContainer"><Nav /></div>
 
     </div>;

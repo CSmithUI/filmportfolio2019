@@ -1,35 +1,43 @@
 .commercialPageWrapper {
     position: relative;
     display: grid;
-    grid-template-rows: repeat(3);
+    grid-template-rows: repeat(4);
 }
 
-.fashionFilmWrapper, .videoListWrapper, .sizzleReelsWrapper, .musicVideosWrapper {
+.fashionFilmWrapper, .videoListWrapper, .sizzleReelsWrapper {
     position: relative;
     margin-bottom: 2em;
     min-height: 250px;
 }
 
-.fashionFilmWrapper {
-    grid-row: 2;
+.sizzleReelsWrapper {
+    grid-row: 1;
+    position: relative;
     margin-top: 2em;
 }
 
+.sizzleReels {
+    position: absolute;
+} 
+
+.fashionFilmWrapper {
+    position: relative;
+    grid-row: 2;
+}
+
+.fashionFilm {
+    position: absolute;
+}
+
 .brandedContentWrapper {
-    grid-row: 4;
+    position: relative;
+    grid-row: 3;
 }
 
 .brandedContent {
     position: absolute;
 }
 
-.sizzleReelsWrapper {
-    grid-row: 1;
-}
-
-.sizzleReels {
-    position: absolute;
-} 
 
 
 

@@ -22,7 +22,7 @@ class Commercial extends React.Component {
         <div className="sizzleReels"><VideoList videos={promosAndSizzles} name="Promos - Trailers - Sizzle Reels" currentVideo={this.currentVideo} /></div>
       </div>
       <div className="videoListWrapper fashionFilmWrapper">
-        <div className="brandedContent"><VideoList videos={fashionAndMusicVideos} name="Fashion Films - Music Videos" currentVideo={this.currentVideo} /></div>
+        <div className="fashionFilm"><VideoList videos={fashionAndMusicVideos} name="Fashion Films - Music Videos" currentVideo={this.currentVideo} /></div>
       </div>
       <div className="videoListWrapper brandedContentWrapper">
         <div className="brandedContent"><VideoList videos={brandedContent} name="Branded Content" currentVideo={this.currentVideo} /></div>

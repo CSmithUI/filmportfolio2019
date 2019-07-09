@@ -27,7 +27,7 @@ class VideoElement extends React.Component {
     }
 
     showPlayBtn = function () {
-        this.playBtn.classList.add("visible");
+        //this.playBtn.classList.add("visible");
     }
 
 

@@ -75,12 +75,12 @@ class VideoList extends React.Component {
         right.classList.add("invis");
       }
     } else if (parWidth < width) {
-      if (left.classList.contains("invis") && posLeft != 0) {
+      if (left.classList.contains("invis") && posLeft !== 0) {
         left.classList.remove("invis");
       } else if (!left.classList.contains("invis") && posLeft === 0) {
         left.classList.add("invis");
       }
-      if (right.classList.contains("invis") && posRight != 0) {
+      if (right.classList.contains("invis") && posRight !== 0) {
         right.classList.remove("invis");
       } else if (!right.classList.contains("invis") && posRight === 0) {
         right.classList.add("invis");
@@ -144,9 +144,21 @@ class VideoList extends React.Component {
 
   currentVideo(id) { this.props.currentVideo(id) };
 
+  // title(arr) {
+  //   if (arr.length > 0) {
+  //     const titles = arr.map(function (title) {
+  //       return <span>{title}</span>
+  //     });
+  //   }
+  //   else {
+  //     return null
+
+  //   }
+  // }
+
+
+
   render() {
-
-
 
     return <div className="videoListComponent">
       <span className="videoListComponentCategory">{this.props.name}</span>

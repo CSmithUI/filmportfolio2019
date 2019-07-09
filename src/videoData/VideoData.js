@@ -47,7 +47,7 @@ export const VideoData = [
     {
         id: 4,
         title: 'Stagecoach Festival Promo',
-        type: 'Branded Content',
+        type: 'Promo',
         category: 'commercial',
         directedBy: true,
         producedBy: true,

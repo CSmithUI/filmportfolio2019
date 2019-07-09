@@ -16,7 +16,7 @@
 }
 
 .brandedContentWrapper {
-    grid-row: 3;
+    grid-row: 4;
 }
 
 .brandedContent {
@@ -24,19 +24,12 @@
 }
 
 .sizzleReelsWrapper {
-    grid-row: 4;
+    grid-row: 1;
 }
 
 .sizzleReels {
     position: absolute;
 } 
 
-.musicVideosWrapper {
-    grid-row: 5;
-}
-
-.musicVideos {
-    position: absolute;
-}
 
 

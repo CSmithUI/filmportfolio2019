@@ -12,7 +12,8 @@ export const VideoData = [
         runtime: 1,
         urlLink: 'https://player.vimeo.com/video/282912409',
         widescreen: true,
-        coverImg: 'BCBGF2018-cover.jpg'
+        coverImg: 'BCBGF2018-cover.jpg',
+        notes: ''
     },
     {
         id: 2,
@@ -27,7 +28,8 @@ export const VideoData = [
         runtime: 1,
         urlLink: 'https://player.vimeo.com/video/346442732',
         widescreen: true,
-        coverImg: 'CF-cover.jpg'
+        coverImg: 'CF-cover.jpg',
+        notes: ''
     },
     {
         id: 3,
@@ -42,7 +44,8 @@ export const VideoData = [
         runtime: 1,
         urlLink: 'https://www.youtube.com/embed/eBLfnVcpeGM',
         widescreen: false,
-        coverImg: 'BCBGenSpr2018-cover.jpg'
+        coverImg: 'BCBGenSpr2018-cover.jpg',
+        notes: ''
     },
     {
         id: 4,
@@ -57,7 +60,8 @@ export const VideoData = [
         runtime: 1,
         urlLink: 'https://player.vimeo.com/video/346441770',
         widescreen: false,
-        coverImg: 'Stagecoach-cover.jpg'
+        coverImg: 'Stagecoach-cover.jpg',
+        notes: ''
     },
     {
         id: 5,
@@ -72,7 +76,8 @@ export const VideoData = [
         runtime: 3,
         urlLink: 'https://www.youtube.com/embed/lyq9WP-Y_fk',
         widescreen: false,
-        coverImg: 'Basmf-cover.jpg'
+        coverImg: 'Basmf-cover.jpg',
+        notes: ''
     },
     {
         id: 6,
@@ -87,7 +92,8 @@ export const VideoData = [
         runtime: 90,
         urlLink: 'https://player.vimeo.com/video/346448339',
         widescreen: false,
-        coverImg: 'CurSea-cover.jpg'
+        coverImg: 'CurSea-cover.jpg',
+        notes: 'Premiering Fall 2019'
     },
     {
         id: 7,
@@ -101,7 +107,8 @@ export const VideoData = [
         yearCreated: '2016',
         runtime: 13,
         urlLink: 'https://player.vimeo.com/video/166108392',
-        coverImg: '10th-cover.jpg'
+        coverImg: '10th-cover.jpg',
+        notes: 'Directed by Alison Klayman'
     },
     {
         id: 8,
@@ -115,7 +122,8 @@ export const VideoData = [
         yearCreated: '2015',
         runtime: 13,
         urlLink: 'https://www.youtube.com/embed/aSFrX1wWugA',
-        coverImg: 'lul-cover.jpg'
+        coverImg: 'lul-cover.jpg',
+        notes: 'Directed by Alison Klayman'
     },
     {
         id: 9,
@@ -129,7 +137,8 @@ export const VideoData = [
         yearCreated: '2013',
         runtime: 62,
         urlLink: 'https://player.vimeo.com/video/28422870',
-        coverImg: 'Tiny-cover.jpg'
+        coverImg: 'Tiny-cover.jpg',
+        notes: 'SXSW, Hulu, Netflix, Al Jazeera'
     },
     {
         id: 10,
@@ -144,7 +153,8 @@ export const VideoData = [
         runtime: 90,
         urlLink: 'https://player.vimeo.com/video/346442764',
         widescreen: false,
-        coverImg: 'AE-cover.jpg'
+        coverImg: 'AE-cover.jpg',
+        notes: 'In production'
     },
     {
         id: 11,
@@ -159,7 +169,8 @@ export const VideoData = [
         runtime: 14,
         urlLink: 'https://www.youtube.com/embed/rOjieGFG5Xk',
         widescreen: false,
-        coverImg: 'Nomans-cover.jpg'
+        coverImg: 'Nomans-cover.jpg',
+        notes: 'For USA Today and PBS'
     },
     {
         id: 12,
@@ -174,7 +185,8 @@ export const VideoData = [
         runtime: 1,
         urlLink: 'https://player.vimeo.com/video/346621403',
         widescreen: false,
-        coverImg: 'BCBGSpr2018-cover.jpg'
+        coverImg: 'BCBGSpr2018-cover.jpg',
+        notes: ''
     },
     {
         id: 13,
@@ -189,7 +201,8 @@ export const VideoData = [
         runtime: 1,
         urlLink: 'https://player.vimeo.com/video/346621405',
         widescreen: false,
-        coverImg: 'BCBGenFall2018-cover.jpg'
+        coverImg: 'BCBGenFall2018-cover.jpg',
+        notes: ''
     },
     {
         id: 14,
@@ -204,12 +217,13 @@ export const VideoData = [
         runtime: 1,
         urlLink: 'https://player.vimeo.com/video/346441594',
         widescreen: false,
-        coverImg: 'LuluAnthem-cover.jpg'
+        coverImg: 'LuluAnthem-cover.jpg',
+        notes: 'Directed by Alison Klayman'
     },
     {
         id: 15,
         title: 'Save the Day - Idiots',
-        type: 'Branded Content',
+        type: 'Promo',
         category: 'commercial',
         directedBy: false,
         producedBy: false,
@@ -219,7 +233,8 @@ export const VideoData = [
         runtime: 1,
         urlLink: 'https://www.youtube.com/embed/fwLbDGX4qbk',
         widescreen: false,
-        coverImg: 'Idiots-cover.jpg'
+        coverImg: 'Idiots-cover.jpg',
+        notes: 'Directed by Joss Whedon'
     },
     {
         id: 16,
@@ -234,7 +249,8 @@ export const VideoData = [
         runtime: 1,
         urlLink: 'https://player.vimeo.com/video/346639616',
         widescreen: false,
-        coverImg: 'Espn-cover.jpg'
+        coverImg: 'Espn-cover.jpg',
+        notes: 'For Upfronts'
     },
     {
         id: 17,
@@ -249,7 +265,8 @@ export const VideoData = [
         runtime: 2,
         urlLink: 'https://player.vimeo.com/video/346442736',
         widescreen: false,
-        coverImg: 'Treehugger-cover.jpg'
+        coverImg: 'Treehugger-cover.jpg',
+        notes: ''
     },
     {
         id: 18,
@@ -264,7 +281,8 @@ export const VideoData = [
         runtime: 1,
         urlLink: 'https://player.vimeo.com/video/346442751',
         widescreen: false,
-        coverImg: 'CEQ-Pump-cover.jpg'
+        coverImg: 'CEQ-Pump-cover.jpg',
+        notes: ''
     },
     {
         id: 19,
@@ -279,7 +297,8 @@ export const VideoData = [
         runtime: 2,
         urlLink: 'https://player.vimeo.com/video/346442743',
         widescreen: false,
-        coverImg: 'CEQ-Recap-cover.jpg'
+        coverImg: 'CEQ-Recap-cover.jpg',
+        notes: ''
     },
     {
         id: 20,
@@ -294,6 +313,7 @@ export const VideoData = [
         runtime: 2,
         urlLink: 'https://player.vimeo.com/video/159433607',
         widescreen: false,
-        coverImg: 'Ritual-cover.jpg'
+        coverImg: 'Ritual-cover.jpg',
+        notes: ''
     }
 ]

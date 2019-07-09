@@ -29,7 +29,7 @@ export const VideoData = [
         urlLink: 'https://player.vimeo.com/video/346442732',
         widescreen: true,
         coverImg: 'CF-cover.jpg',
-        notes: ''
+        notes: 'For Unilever'
     },
     {
         id: 3,
@@ -61,7 +61,7 @@ export const VideoData = [
         urlLink: 'https://player.vimeo.com/video/346441770',
         widescreen: false,
         coverImg: 'Stagecoach-cover.jpg',
-        notes: ''
+        notes: 'For Golden Voice'
     },
     {
         id: 5,
@@ -77,7 +77,7 @@ export const VideoData = [
         urlLink: 'https://www.youtube.com/embed/lyq9WP-Y_fk',
         widescreen: false,
         coverImg: 'Basmf-cover.jpg',
-        notes: ''
+        notes: 'For Warner Records'
     },
     {
         id: 6,
@@ -286,6 +286,22 @@ export const VideoData = [
     },
     {
         id: 19,
+        title: 'Ritual Chocolate',
+        type: 'Branded Content',
+        category: 'commercial',
+        directedBy: true,
+        producedBy: true,
+        editedBy: true,
+        shotBy: true,
+        yearCreated: '2015',
+        runtime: 2,
+        urlLink: 'https://player.vimeo.com/video/159433607',
+        widescreen: false,
+        coverImg: 'Ritual-cover.jpg',
+        notes: ''
+    },
+    {
+        id: 20,
         title: 'CEQ - Recap',
         type: 'Branded Content',
         category: 'commercial',
@@ -301,19 +317,36 @@ export const VideoData = [
         notes: ''
     },
     {
-        id: 20,
-        title: 'Ritual Chocolate',
-        type: 'Branded Content',
-        category: 'commercial',
-        directedBy: true,
-        producedBy: true,
+        id: 21,
+        title: 'Romeo is Bleeding',
+        type: 'Feature',
+        category: 'film',
+        directedBy: false,
+        producedBy: false,
         editedBy: true,
-        shotBy: true,
+        shotBy: false,
         yearCreated: '2015',
-        runtime: 2,
-        urlLink: 'https://player.vimeo.com/video/159433607',
+        runtime: 85,
+        urlLink: 'https://www.youtube.com/embed/EE6m_05dQfw',
         widescreen: false,
-        coverImg: 'Ritual-cover.jpg',
-        notes: ''
+        coverImg: 'Romeo-cover.jpg',
+        notes: 'SFIFF, Netflix'
+    },
+    {
+        id: 22,
+        title: 'Alabama Bound',
+        type: 'Feature',
+        category: 'film',
+        directedBy: false,
+        producedBy: false,
+        editedBy: true,
+        shotBy: false,
+        yearCreated: '2016',
+        runtime: 88,
+        urlLink: 'https://player.vimeo.com/video/194821856',
+        widescreen: false,
+        coverImg: 'alabama-cover.jpg',
+        notes: 'Frameline'
     }
+
 ]

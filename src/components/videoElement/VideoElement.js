@@ -51,6 +51,8 @@ class VideoElement extends React.Component {
                 <span>{this.props.video.title}</span> <span className="runtime">{this.props.video.runtime}m</span>
                 <br />
                 <span className="roles" >{this.roles()}</span>
+                <br />
+                <span className="notes" >{this.props.video.notes}</span>
             </div>
         </div>;
     }

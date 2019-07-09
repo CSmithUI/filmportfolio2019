@@ -55,5 +55,10 @@
 .roles {
   font-size: 0.8em;
   color: silver;
+}
+
+.notes {
+  font-size: 0.8em;
+  color: gray;
   font-style: oblique;
 }

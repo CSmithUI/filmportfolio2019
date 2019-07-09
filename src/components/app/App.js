@@ -49,7 +49,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    console.log(VideoData);
+    //console.log(VideoData);
     //this.setState();
   }
 }

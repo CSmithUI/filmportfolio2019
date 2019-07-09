@@ -37,7 +37,7 @@ class VideoList extends React.Component {
   }
 
   delay(func, delay) {
-    console.log(func);
+    //console.log(func);
     setTimeout(func, delay);
 
   }
@@ -46,11 +46,7 @@ class VideoList extends React.Component {
 
     //const el = this.refs.tray;
     const el = this.tray.current;
-    console.log(el);
-
-    const parent = this.wrapper.current;
-    console.log(parent);
-
+    //const parent = this.wrapper.current;
     const posRight = this.offsetRight();
     const posLeft = el.scrollLeft;
     const left = this.caretLeft.current;
@@ -59,10 +55,8 @@ class VideoList extends React.Component {
 
 
     const parWidth = el.parentElement.offsetWidth;
-    //console.log("parWidth " + parWidth);
 
     const width = el.scrollWidth;
-    //console.log("width " + width);
 
     if (parWidth >= width) {
 
@@ -87,16 +81,13 @@ class VideoList extends React.Component {
       }
     }
 
-    //console.log("left " + posLeft);
-    //console.log("right " + posRight);
-    //this.offsetRight();
+
     if (posLeft > 0) {
       left.classList.remove("invis");
     } else {
       left.classList.add("invis");
     }
     if (posRight === 0) {
-      console.log("true");
       right.classList.add("invis");
     } else {
       right.classList.remove("invis");

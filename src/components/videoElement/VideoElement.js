@@ -6,6 +6,12 @@ import play from './imgs/noun_play_1.svg';
 
 class VideoElement extends React.Component {
 
+    constructor() {
+        super();
+        this.playBtn = React.createRef();
+        this.showPlayBtn = this.showPlayBtn.bind(this);
+    }
+
     roles = () => {
         let roles = [];
         if (this.props.video.producedBy) {
@@ -20,13 +26,17 @@ class VideoElement extends React.Component {
         return roles.toString();
     }
 
+    showPlayBtn = function () {
+        this.playBtn.classList.add("visible");
+    }
+
 
     render() {
 
 
         return <div className="videoElement">
             <div>
-                <img className="playIconDiv" src={play} alt="Play icon" />
+                <img className="playIconDiv" src={play} alt="Play icon" ref={this.playBtn} />
             </div>
             <Link to={{
                 pathname: '/video/' + this.props.video.id,
@@ -46,7 +56,7 @@ class VideoElement extends React.Component {
     }
 
     componentDidMount() {
-        //this.setState({ someKey: 'otherValue' });
+        setTimeout(this.showPlayBtn, 500);
     }
 }
 

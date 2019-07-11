@@ -9,11 +9,14 @@ class Commercial extends React.Component {
     const fashionFilms = this.props.videos.filter(video => video.type === 'Fashion Film');
     const brandedContent = this.props.videos.filter(video => video.type === 'Branded Content');
     const sizzleReels = this.props.videos.filter(video => video.type === 'Sizzle Reel');
+    const trailers = this.props.videos.filter(video => video.type === 'Trailer');
     const promos = this.props.videos.filter(video => video.type === 'Promo');
     const musicVideos = this.props.videos.filter(video => video.type === 'Music Video');
 
     const fashionAndMusicVideos = fashionFilms.concat(musicVideos);
-    const promosAndSizzles = promos.concat(sizzleReels);
+    const promosAndSizzles = promos.concat(trailers, sizzleReels);
+    const sortedPromosAndSizzles = promosAndSizzles.sort((a, b) => (a.id > b.id) ? 1 : -1);
+    console.log(sortedPromosAndSizzles);
 
 
 

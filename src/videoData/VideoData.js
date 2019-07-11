@@ -16,7 +16,7 @@ export const VideoData = [
         notes: ''
     },
     {
-        id: 2,
+        id: 44,
         title: 'Cruelty Free',
         type: 'Sizzle Reel',
         category: 'commercial',
@@ -33,7 +33,7 @@ export const VideoData = [
     },
     {
         id: 3,
-        title: 'BCBGeneration - Spring 2017',
+        title: 'BCBGeneration - Spring 2018',
         type: 'Fashion Film',
         category: 'commercial',
         directedBy: true,
@@ -48,7 +48,7 @@ export const VideoData = [
         notes: ''
     },
     {
-        id: 4,
+        id: 41,
         title: 'Stagecoach Festival Promo',
         type: 'Promo',
         category: 'commercial',
@@ -221,7 +221,7 @@ export const VideoData = [
         notes: 'Directed by Alison Klayman'
     },
     {
-        id: 15,
+        id: 42,
         title: 'Save the Day - Idiots',
         type: 'Promo',
         category: 'commercial',
@@ -237,7 +237,7 @@ export const VideoData = [
         notes: 'Directed by Joss Whedon'
     },
     {
-        id: 16,
+        id: 45,
         title: 'ESPN - Nacion Sizzle',
         type: 'Sizzle Reel',
         category: 'commercial',
@@ -269,7 +269,7 @@ export const VideoData = [
         notes: ''
     },
     {
-        id: 18,
+        id: 49,
         title: 'CEQ - Pump Teaser',
         type: 'Sizzle Reel',
         category: 'commercial',
@@ -347,6 +347,38 @@ export const VideoData = [
         widescreen: false,
         coverImg: 'alabama-cover.jpg',
         notes: 'Frameline'
-    }
+    },
+    {
+        id: 43,
+        title: 'Alabama Bound - Trailer',
+        type: 'Trailer',
+        category: 'commercial',
+        directedBy: false,
+        producedBy: false,
+        editedBy: true,
+        shotBy: false,
+        yearCreated: '2016',
+        runtime: 2,
+        urlLink: 'https://player.vimeo.com/video/194821856',
+        widescreen: false,
+        coverImg: 'alabama-cover.jpg',
+        notes: 'Frameline'
+    },
+    {
+        id: 46,
+        title: 'Current Sea - Sizzle Trailer',
+        type: 'Trailer',
+        category: 'film',
+        directedBy: true,
+        producedBy: true,
+        editedBy: true,
+        shotBy: true,
+        yearCreated: '2019',
+        runtime: 90,
+        urlLink: 'https://player.vimeo.com/video/346448339',
+        widescreen: false,
+        coverImg: 'CurSea-cover.jpg',
+        notes: 'Premiering Fall 2019'
+    },
 
 ]

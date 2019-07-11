@@ -365,7 +365,7 @@ export const VideoData = [
         notes: 'Frameline'
     },
     {
-        id: 46,
+        id: 47,
         title: 'Current Sea - Sizzle Trailer',
         type: 'Trailer',
         category: 'film',
@@ -380,5 +380,21 @@ export const VideoData = [
         coverImg: 'CurSea-cover.jpg',
         notes: 'Premiering Fall 2019'
     },
+    {
+        id: 46,
+        title: 'Mr. Pig - Trailer',
+        type: 'Trailer',
+        category: 'commercial',
+        directedBy: false,
+        producedBy: false,
+        editedBy: true,
+        shotBy: false,
+        yearCreated: '2019',
+        runtime: 2,
+        urlLink: 'https://player.vimeo.com/video/195033502',
+        widescreen: false,
+        coverImg: 'Pig-cover.jpg',
+        notes: 'Directed by Diego Luna'
+    }
 
 ]

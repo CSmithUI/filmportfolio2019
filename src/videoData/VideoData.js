@@ -374,7 +374,7 @@ export const VideoData = [
         editedBy: true,
         shotBy: true,
         yearCreated: '2019',
-        runtime: 90,
+        runtime: 3,
         urlLink: 'https://player.vimeo.com/video/346448339',
         widescreen: false,
         coverImg: 'CurSea-cover.jpg',

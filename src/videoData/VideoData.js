@@ -368,7 +368,7 @@ export const VideoData = [
         id: 47,
         title: 'Current Sea - Sizzle Trailer',
         type: 'Trailer',
-        category: 'film',
+        category: 'comercial',
         directedBy: true,
         producedBy: true,
         editedBy: true,

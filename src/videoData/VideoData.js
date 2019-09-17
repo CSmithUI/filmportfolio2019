@@ -395,6 +395,22 @@ export const VideoData = [
         widescreen: false,
         coverImg: 'Pig-cover.jpg',
         notes: 'Directed by Diego Luna'
+    },
+    {
+        id: 47,
+        title: 'Hourglass - Purpose',
+        type: 'Branded Content',
+        category: 'commercial',
+        directedBy: false,
+        producedBy: false,
+        editedBy: true,
+        shotBy: false,
+        yearCreated: '2019',
+        runtime: 1,
+        urlLink: 'https://vimeo.com/360582369',
+        widescreen: false,
+        coverImg: 'Pig-cover.jpg',
+        notes: 'High engagement'
     }
 
 ]

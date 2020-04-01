@@ -90,7 +90,7 @@ export const VideoData = [
         shotBy: true,
         yearCreated: '2019',
         runtime: 90,
-        urlLink: 'https://player.vimeo.com/video/346448339',
+        urlLink: 'https://vimeo.com/391160371',
         widescreen: false,
         coverImg: 'CurSea-cover.jpg',
         notes: 'Premiering Fall 2019'

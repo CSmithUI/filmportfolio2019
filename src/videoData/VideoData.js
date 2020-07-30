@@ -167,7 +167,7 @@ export const VideoData = [
         shotBy: false,
         yearCreated: '2018',
         runtime: 14,
-        urlLink: 'https://www.youtube.com/embed/rOjieGFG5Xk',
+        urlLink: 'https://uw-media.usatoday.com/embed/video/34649339?placement=snow-embed',
         widescreen: false,
         coverImg: 'Nomans-cover.jpg',
         notes: 'For USA Today and PBS'

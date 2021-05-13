@@ -38,3 +38,22 @@
   grid-column: 6 / 11;
 }
 
+.contact {
+  position: absolute;
+  right: 5%;
+  bottom: 2%;
+}
+
+.contact a,
+a:visited {
+  text-decoration: none;
+  font-size: 1em;
+  color: red;
+  line-height: 2em;
+  letter-spacing: 0.1em;
+}
+
+.contact a:hover {
+  text-decoration: none;
+  color: white;
+}

@@ -21,7 +21,9 @@ class Landing extends React.Component {
       <div className="heroElement">
         <VideoElement video={hero} />
       </div>
-
+      <div className="contact">
+        for enquiries: <a href="mailto:info@speakthunderfilms.com">info@speakthunderfilms.com</a>
+      </div>
     </div>;
   }
 

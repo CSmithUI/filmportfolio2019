@@ -392,7 +392,7 @@ export const VideoData = [
     shotBy: true,
     yearCreated: '2015',
     runtime: 2,
-    urlLink: 'https://player.vimeo.com/video/159433607',
+    urlLink: 'https://player.vimeo.com/video/1242538379',
     widescreen: false,
     coverImg: 'Ritual-cover.jpg',
     notes: '',
